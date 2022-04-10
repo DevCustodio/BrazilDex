@@ -21,6 +21,15 @@
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
+.cartao-pokemon .tipo-lendario {
+    font-size: 12px;
+    background-color:#FFD743;
+    opacity: 0.7;
+    border-radius: 10px;
+    padding: 2px 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
 .cartao-pokemon .detalhes {
     color: #FFFFFF;
     display: flex;
