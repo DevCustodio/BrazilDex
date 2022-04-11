@@ -1,25 +1,43 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pokédex - MapaDev Week</title>
+    <title> Pokemons Favoritos - Brazildex </title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integ rity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
     <link rel="stylesheet" href="src/imagens/css/reset.css" />
     <link rel="stylesheet" href="src/imagens/css/global.css" />
     <link rel="stylesheet" href="src/imagens/css/cartao.css" />
-    <link rel="stylesheet" href="src/imagens/css/listagem.css" />
+    <link rel="stylesheet" href="src/imagens/css/listagem e cont.css" />
     <link rel="stylesheet" href="src/imagens/css/responsivo.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap" rel="stylesheet" />
   </head>
+
   <body>
+
+  <header>
+    <nav class="container">
+        <h1>Meus Pokémons Brasileiros Favoritos</h1>
+        <img class="pb" src="src/imagens/Pokeball_icon.png" alt="pokeball"> 
+          <div class="pokecontact">
+              <img src="src/imagens/Vector.svg" alt="Github"/>
+              <a href="https://github.com/DevCustodio">/DevCustodio</a>
+          </div>        
+    </nav>
+  </header>
+
     <main>
       <div class="pokedex">
         <div class="cartoes-pokemon">
 
-          <div class="cartao-pokemon tipo-fogo aberto" id="cartao-charmander">
+          <div class="cartao-pokemon tipo-fogo aberto" id="cartao-curupyro">
             <div class="cartao-topo">
               <div class="detalhes">
                 <h2 class="nome">Curupyro</h2>
@@ -57,15 +75,162 @@
             </div>
           </div>
 
-          <div class="cartao-pokemon tipo-eletrico" id="cartao-pikachu">
+          <div class="cartao-pokemon tipo-agua" id="cartao-jacaruca">
+            <div class="cartao-topo">
+              <div class="detalhes">
+                <h2 class="nome">Jacaruca</h2>
+                <span>Brazuka Dex #110</span>
+              </div>
+
+              <span class="tipo-lendario">Lendário</span>
+              <span class="tipo">Água</span>
+              <span class="tipo">Dragão</span>          
+
+              <div class="cartao-imagem">
+                <img src="src/imagens/jacaruca.png" alt="Jacaruca" />
+              </div>
+            </div>
+
+            <div class="cartao-informacoes">
+              <div class="status">
+                <h3>Descrição</h3>
+                <P>Jacaruca é temido em várias aldeias por "sequestrar" crianças.<br> 
+                  Muitos moradores usam seu nome para fazer medo em crianças que não querem dormir. </P>                      
+              </div>
+
+              <div class="habilidades">
+                <h3>Habilidades</h3>
+
+                <ul>
+                  <li>Surfar</li>
+                  <li>Ultraje</li>
+                  <li>Cauda de Dragão</li>
+                  <li>Pulso d'Água</li>
+
+                </ul>
+                <p><br>Poder Total: 7784</p> 
+              </div>
+            </div>
+          </div>
+          
+          <div class="cartao-pokemon tipo-lutador" id="cartao-capybraba">
+            <div class="cartao-topo">
+              <div class="detalhes">
+                <h2 class="nome">Papybraba</h2>
+                <span>Brazuka Dex #017</span>
+              </div>
+
+              <span class="tipo">Lutador</span>
+              <span class="tipo">Normal</span>
+
+              <div class="cartao-imagem">
+                <img src="src/imagens/papybara.png" alt="Papybraba" />
+              </div>
+            </div>
+
+            <div class="cartao-informacoes">
+              <div class="status">
+                <h3>Descrição</h3>
+                <P>Muito protetores, são encontrados perto de rios protegendo seus filhotes.<br> 
+                Costumam fazer gigantescas tocas e afastam qualquer criatura que chegue perto.</P>                      
+              </div>
+
+              <div class="habilidades">
+                <h3>Habilidades</h3>
+
+                <ul>
+                  <li>Derrubada</li>
+                  <li>Corpo-a-Corpo</li>
+                  <li>Pancada</li>
+                  <li>Explosão Focalizada</li>
+
+                </ul>
+                <p><br>Poder Total: 6745</p> 
+              </div>
+            </div>
+          </div>
+
+          <div class="cartao-pokemon tipo-fantasma" id="cartao-bumboi">
+            <div class="cartao-topo">
+              <div class="detalhes">
+                <h2 class="nome">Bumboi</h2>
+                <span>Digui Dex #117</span>
+              </div>
+
+              <span class="tipo">Fastama</span>
+              <span class="tipo">Fada</span>
+
+              <div class="cartao-imagem">
+                <img src="src/imagens/bumboi.png" alt="Bumboi" />
+              </div>
+            </div>
+
+            <div class="cartao-informacoes">
+              <div class="status">
+                <h3>Descrição</h3>
+                <P>Popularmente conhecidos por sua "ressurreição", se movem como se dançassem.<br> 
+                Só evolui para Bumboi se desmaiar e estiver equipado com um bumbá charm.</P>                      
+              </div>
+
+              <div class="habilidades">
+                <h3>Habilidades</h3>
+
+                <ul>
+                  <li>Encantar</li>
+                  <li>Feitiço</li>
+                  <li>Explosão Lunar</li>
+                  <li>Sombra Noturna</li>
+
+                </ul>
+                <p><br>Poder Total: 6669</p> 
+              </div>
+            </div>
+          </div>
+
+          <div class="cartao-pokemon tipo-grama" id="cartao-guarandio">
+            <div class="cartao-topo">
+              <div class="detalhes">
+                <h2 class="nome">Guarandio</h2>
+                <span>Brasul Region #171</span>
+              </div>
+
+              <span class="tipo">Grama</span>
+              <span class="tipo">Lutador</span>
+
+              <div class="cartao-imagem">
+                <img src="src/imagens/guarandio.png" alt="Guarandio"/>
+              </div>
+            </div>
+
+            <div class="cartao-informacoes">
+              <div class="status">
+                <h3>Descrição</h3>
+                <P>Nascem lutando contra a destruição de seu habitat, por isso são excelentes lutadores.<br> 
+                  Vivem em aldeias dentro das florestas pokémon e as protegem o quanto podem.</P>                      
+              </div>
+
+              <div class="habilidades">
+                <h3>Habilidades</h3>
+
+                <ul>
+                  <li>Explosão Floral</li>
+                  <li>Soco Dinâmico</li>
+                  <li>Raio Solar</li>
+                  <li>Quebra-telha</li>
+
+                </ul>
+                <p><br>Poder Total: 5134</p> 
+              </div>
+            </div>
+          </div>
+
+          <div class="cartao-pokemon tipo-eletrico" id="cartao-micunny">
             <div class="cartao-topo">
               <div class="detalhes">
                 <h2 class="nome">Micunny</h2>
                 <span>BrazukaDex #043</span>                              
               </div>
-
-              <span class="tipo">Elétrico</span>
-              <span class="tipo">Normal</span>
+              <span class="tipo">Elétrico</span>              
 
               <div class="cartao-imagem">
                 <img src="src/imagens/micunny.png" alt="Micunny" />
@@ -89,96 +254,19 @@
                   <li>Canhão Zap</li>
 
                 </ul>
-                <p><br>Poder Total: 3750</p> 
-              </div>
-            </div>
-          </div>
-          
-          <div class="cartao-pokemon tipo-agua" id="cartao-gyarados">
-            <div class="cartao-topo">
-              <div class="detalhes">
-                <h2 class="nome">Jacaruca</h2>
-                <span>Brazuka Dex #110</span>
-              </div>
-
-              <span class="tipo-lendario">Lendário</span>
-              <span class="tipo">Dragão</span>
-              <span class="tipo">Água</span>
-
-              <div class="cartao-imagem">
-                <img src="src/imagens/jacaruca.png" alt="Jacaruca" />
-              </div>
-            </div>
-
-            <div class="cartao-informacoes">
-              <div class="status">
-                <h3>Descrição</h3>
-                <P>Jacaruca é temido em várias aldeias por ao seu hábito de "sequestrar" crianças.<br> 
-                  Muitos moradores usam seu nome como uma forma de fazer medo em crianças que não querem dormir. </P>                      
-              </div>
-
-              <div class="habilidades">
-                <h3>Habilidades</h3>
-
-                <ul>
-                  <li>Surfar</li>
-                  <li>Ultraje</li>
-                  <li>Cauda de Dragão</li>
-                  <li>Pulso d'Água</li>
-
-                </ul>
-                <p><br>Poder Total: 7784</p> 
+                <p><br>Poder Total: 4750</p> 
               </div>
             </div>
           </div>
 
-          <div class="cartao-pokemon tipo-trevas" id="cartao-gengar">
-            <div class="cartao-topo">
-              <div class="detalhes">
-                <h2 class="nome">Bumboi</h2>
-                <span>#013</span>
-              </div>
-
-              <span class="tipo">Fastama</span>
-              <span class="tipo">Fada</span>
-
-              <div class="cartao-imagem">
-                <img src="src/imagens/bumboi.png" alt="Bumboi" />
-              </div>
-            </div>
-
-            <div class="cartao-informacoes">
-              <div class="status">
-                <h3>Status</h3>
-
-                <ul>
-                  <li>HP: 100</li>
-                  <li>Ataque: 200</li>
-                  <li>Defesa: 300</li>
-                  <li>Velocidade: 400</li>
-                  <li>Total: 1000</li>
-                </ul>
-              </div>
-
-              <div class="habilidades">
-                <h3>Habilidades</h3>
-
-                <ul>
-                  <li>Bola sombria</li>
-                  <li>Lambida</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="cartao-pokemon tipo-venenoso" id="cartao-sulArbok">
+          <div class="cartao-pokemon tipo-veneno" id="cartao-sulArbok">
             <div class="cartao-topo">
               <div class="detalhes">
                 <h2 class="nome">SulArbok</h2>
-                <span>#013</span>
+                <span> Brasul Region #010</span>
               </div>
 
-              <span class="tipo">Venenoso</span>
+              <span class="tipo">Veneno</span>
               <span class="tipo">Fogo</span>
 
               <div class="cartao-imagem">
@@ -188,136 +276,57 @@
 
             <div class="cartao-informacoes">
               <div class="status">
-                <h3>Status</h3>
-
-                <ul>
-                  <li>HP: 100</li>
-                  <li>Ataque: 200</li>
-                  <li>Defesa: 300</li>
-                  <li>Velocidade: 400</li>
-                  <li>Total: 1000</li>
-                </ul>
+                <h3>Descrição</h3>
+                <P>Este raro pokemon aparece somente em florestas profundas e desastres naturais.<br> 
+                  Dizem que os olhos que carrega são daqueles que incentiavam as matas.</P>                      
               </div>
 
               <div class="habilidades">
                 <h3>Habilidades</h3>
 
                 <ul>
-                  <li>Bola sombria</li>
-                  <li>Lambida</li>
+                  <li>Presa Venenosa</li>
+                  <li>Roda de Fogo</li>
+                  <li>Maldição da Floresta</li>
+                  <li>Rajada de Fogo</li>
+
                 </ul>
+                <p><br>Poder Total: 4643</p> 
               </div>
             </div>
-          </div>
-
-          <div class="cartao-pokemon tipo-grama" id="cartao-bulbasaur">
-            <div class="cartao-topo">
-              <div class="detalhes">
-                <h2 class="nome">Guarandio</h2>
-                <span>#002</span>
-              </div>
-
-              <span class="tipo">Grama</span>
-              <span class="tipo">Lutador</span>
-
-              <div class="cartao-imagem">
-                <img src="src/imagens/guarandio.png" alt="Guarandio"/>
-              </div>
-            </div>
-
-            <div class="cartao-informacoes">
-              <div class="status">
-                <h3>Status</h3>
-
-                <ul>
-                  <li>HP: 320</li>
-                  <li>Ataque: 510</li>
-                  <li>Defesa: 400</li>
-                  <li>Velocidade: 200</li>
-                  <li>Total: 1430</li>
-                </ul>
-              </div>
-
-              <div class="habilidades">
-                <h3>Habilidades</h3>
-
-                <ul>
-                  <li>Folha navalha</li>
-                  <li>Raio solar</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="cartao-pokemon tipo-dragao" id="cartao-dragonite">
-            <div class="cartao-topo">
-              <div class="detalhes">
-                <h2 class="nome">Papybara</h2>
-                <span>#062</span>
-              </div>
-
-              <span class="tipo">Lutador</span>
-              <span class="tipo">Normal</span>
-
-              <div class="cartao-imagem">
-                <img src="src/imagens/papybara.png" alt="Papybara" />
-              </div>
-            </div>
-
-            <div class="cartao-informacoes">
-              <div class="status">
-                <h3>Status</h3>
-
-                <ul>
-                  <li>HP: 500</li>
-                  <li>Ataque: 600</li>
-                  <li>Defesa: 400</li>
-                  <li>Velocidade: 400</li>
-                  <li>Total: 1900</li>
-                </ul>
-              </div>
-
-              <div class="habilidades">
-                <h3>Habilidades</h3>
-
-                <ul>
-                  <li>Dança do dragão</li>
-                  <li>Velocidade extrema</li>
-                </ul>
-              </div>
-            </div>
-          </div>
+          </div>              
+          
         </div>
 
         <nav class="listagem">
           <ul>
-            <li class="pokemon ativo" id="charmander">
+            <li class="pokemon ativo" id="curupyro">
                 <img src="src/imagens/cabeca-curupyro.png" alt="cabeça do Curupyro" />
                 <span>Curupyro</span>
             </li>
-            <li class="pokemon" id="gyarados">
+            <li class="pokemon" id="jacaruca">
                 <img src="src/imagens/cabeca-jacaruca.png" alt="cabeça da Jacaruca" />
                 <span>Jacaruca</span>
             </li>
-            <li class="pokemon" id="dragonite">
+            <li class="pokemon" id="capybraba">
                 <img src="src/imagens/cabeca-papybara.png" alt="cabeça do Papybara" />
-                <span>Papybara</span>
+                <span>Papybraba</span>
             </li>
-            <li class="pokemon" id="gengar">
+            <li class="pokemon" id="bumboi">
                <img src="src/imagens/cabeca-bumboi.png" alt="cabeça do Bumboi" />
                 <span>Bumboi</span>
             </li>
-            <li class="pokemon" id="bulbasaur">
+            <li class="pokemon" id="guarandio">
                 <img src="src/imagens/cabeca-guarandio.png" alt="cabeça do Guarandio" />
                 <span>Guarandio</span>
             </li>
-            <li class="pokemon" id="pikachu">
+            <li class="pokemon" id="micunny">
               <img src="src/imagens/cabeca-micunny.png" alt="cabeça do Micunny" />
               <span>Micunny</span>
             </li>
             <li class="pokemon" id="sulArbok">
                 <img src="src/imagens/cabeca-sularbok.png" alt="cabeça do SulArbok" />
-                <span>SulArbok</span>
+                <span>Sularbok</span>
             </li>
           </ul>
         </nav>

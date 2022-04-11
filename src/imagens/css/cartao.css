@@ -1,3 +1,10 @@
+
+pokebar{
+    
+}
+
+
+
 .cartao-pokemon {
     display: none;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
@@ -67,7 +74,11 @@
     width: 180px;
 }
 
-.cartao-pokemon .cartao-informacoes .habilidades ul li, .cartao-pokemon .cartao-informacoes .status ul li {
+.habilidades ul li{
+    list-style: square;
+}
+
+.cartao-pokemon .cartao-informacoes .habilidades p, .cartao-pokemon .cartao-informacoes .status p {
     border-bottom: 1px solid #C3C4C5;
     padding: 0 0 5px;
     margin-bottom: 5px;
@@ -79,26 +90,31 @@
 }
 
 .tipo-fogo{
-    background-color: #ED8A8B;
+    background-color: #c73c3e;
 }
 
 .tipo-eletrico{
-    background-color:#FCC719;
+    background-color:#dfb427;
 }
 
 .tipo-agua{
-    background-color:#76BEFE;
+    background-color:#507da5;
 }
 
 .tipo-grama{
-    background-color:#49D0B0;
+    background-color:#37a066;
 }
 
-.tipo-sombrio{
-    background-color: #BA68C8;
+.tipo-veneno{
+    background-color: #892997;
 }
-.tipo-dragao{
-    background-color:#C29791;
+
+.tipo-fantasma{
+    background-color: #4d3899;
+}
+
+.tipo-lutador{
+    background-color:#b95c38;
 }
 
 
