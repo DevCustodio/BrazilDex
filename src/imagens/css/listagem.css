@@ -1,0 +1,105 @@
+.listagem {
+    max-width: 200px;
+}
+
+.listagem .pokemon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    background-color: #6B727A;
+    color: #FFFFFF;
+    padding: 0 5px;
+    cursor: pointer;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    min-height: 70px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: 0.15s ease-in-out;
+}
+
+.listagem .pokemon:hover {
+    transform: scale(1.05);
+}
+
+.listagem .pokemon img {
+    width: 25%;
+    border-radius: 50%;
+}
+
+.listagem .pokemon span {
+    padding-right: 20px;
+}
+
+.listagem .pokemon.ativo {
+    background-color: #2d7bbb;
+}
+
+
+
+/* NAVBAR REMOVED
+HTML
+<header>
+  <nav class="container">
+        <h1>Meus Pokémons Brasileiros Favoritos</h1>
+        <img class="pb" src="src/imagens/Pokeball_icon.png" alt="pokeball"> 
+          <div class="pokecontact">
+              <img src="src/imagens/Vector.svg" alt="Github"/>
+              <a href="https://github.com/DevCustodio">/DevCustodio</a>
+          </div>        
+    </nav>
+  </header>
+
+  CSS
+.header{
+    background-color: rgb(184, 28, 28) ;
+    color: #FFFFFF;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav h1 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+nav a {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+a, a:hover {
+    color: unset;
+    text-decoration: none;
+}
+
+.pokecontact {
+    display: flex;
+    align-items: center;
+}
+
+.pokecontact img{
+    margin-left: 10px;
+}
+
+.pb {
+    max-width: 50px;
+    max-height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokecontact a {
+    width: 72px;
+    height: 16px;
+    font-size: 18px;
+    font-weight: 400;
+}
+*/
